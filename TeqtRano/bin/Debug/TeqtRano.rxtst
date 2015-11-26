@@ -1,0 +1,58 @@
+﻿<testsuite
+name="TeqtRano"
+rxversion="5.4.4.26486"
+id="7efd6fe3-d31e-4d1e-8dd0-d1abda8897d2"
+reportfilename="%S_%Y%M%D_%T.rxlog"
+reporttemplatefolder=""
+reportxslfilename=""
+placescreenshotsinfolder="True"
+ReportTime="RelativeToTestSuiteStartTime"
+reportwriteinterval="30000ms"
+reportcompress="False"
+enabletracingscreenshots="True"
+TracingScreenshotMode="Foreground"
+TracingScreenshotQuality="40"
+reportlevel="Info;20">
+	<content>
+		<testcase
+		name="Connexion"
+		id="41126580-3c3b-482b-b19f-67393beb4663">
+			<modulegroup
+			name="Connexion"
+			id="7164d088-3964-4306-ae1a-e3d238a0d814"
+			ref="2490aae2-2105-4568-8daa-e922cb09f26a"/>
+			<testmodule
+			name="TestEmail"
+			id="f71113ba-bf24-4f68-a216-e14531356dcb"
+			ref="b77b48b5-080e-449a-9e5d-92b09f80a131"
+			type="Recording"/>
+		</testcase>
+		<testcase
+		name="Deconnexion"
+		id="dd4cb44e-973e-44ad-98c1-51e086d93b12">
+			<testmodule
+			name="Deconnexion"
+			id="d972ff44-ce0d-4b49-92d8-0c6dc1368d13"
+			ref="989019d7-dee4-427b-bccd-b780187f930c"
+			type="Recording"/>
+			<testmodule
+			name="TestDeconnexion"
+			id="5d3de592-cd68-49ca-9f25-334ce3776ed6"
+			ref="62d2f0a2-95f5-47e1-b7c6-3d4633d88a79"
+			type="Recording"/>
+		</testcase>
+	</content>
+	<testconfigurations
+	default="TestRun">
+		<testconfiguration
+		name="TestRun">
+			<testcase
+			id="41126580-3c3b-482b-b19f-67393beb4663"/>
+			<testcase
+			id="7efd6fe3-d31e-4d1e-8dd0-d1abda8897d2"/>
+			<testcase
+			id="dd4cb44e-973e-44ad-98c1-51e086d93b12"/>
+		</testconfiguration>
+	</testconfigurations>
+	<references/>
+</testsuite>

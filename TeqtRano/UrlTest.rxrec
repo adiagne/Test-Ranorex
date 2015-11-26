@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.4.26486"
+id="f48abbf2-1b0e-41a6-ad5b-04b7bb2b3c5b"
+embeddedrepository="false"
+mode="Desktop">
+	<name>
+		UrlTest
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="UrlTest"
+	namespace="TeqtRano"/>
+	<variables>
+		<var
+		name="ZenityUrl"
+		id="0a70206f-4116-4d2f-b16e-7cd5e8689cba">
+			http://webmail.zenity.fr
+		</var>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		enabled="True"
+		optional="False"
+		browser="chrome"
+		args=""
+		maximized="False"
+		incognito="False"
+		clearcache="False">
+			<comment/>
+			<bindings>
+				<binding
+				target="Url"
+				variable="ZenityUrl"/>
+			</bindings>
+			<url>
+				http://webmail.zenity.fr
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	name="TeqtRanoRepository"
+	id="2aa8e8a5-9ca6-4741-a96d-6afc5ce7e891"
+	rxversion="5.4.4.26486"
+	relativepath="TeqtRanoRepository.rxrep">
+		<codegen
+		classname="TeqtRanoRepository"
+		namespace="TeqtRano"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="3210af4d-4347-4f81-aa07-317fc26e8e22"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		UrlTest.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

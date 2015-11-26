@@ -1,0 +1,707 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.4.26486"
+id="b77b48b5-080e-449a-9e5d-92b09f80a131"
+embeddedrepository="false"
+mode="Desktop">
+	<name>
+		TestEmail
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="TestEmail"
+	namespace="TeqtRano"/>
+	<variables/>
+	<recorditems>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="c503f29f-3609-46a9-b367-fbd33580710b"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="723"
+		sy="448"
+		loc="69;14">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="2c13f5b1-ce2b-4858-9bed-3bf45a9ca65b">
+				<element
+				role="unknown"
+				prefcap="inputtag"
+				capabilities="webelement, inputtag"
+				flavor="chromeweb"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="654,434,121,35"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						button mainaction
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						Connexion
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						submit
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						Connexion
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='webmail.zenity.fr']//div[#'login-form']/?/?/form[@name='form']/?/?/input[@type='submit']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="204528e5-abcd-4327-98c2-1781b94d90a8">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCACzAZADASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDfoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAopodTIUz8wAJ
+Hsc/4GmJcRyDMRLnYHAAxkHp1+lAEtFRrKGdlVWOxtrHjjjP9akoAKKa8ioVDHBc7V9zjP8ASnUA
+FFFFABTTluhxSt90/SlxQBHsP99qNh/vtQJoTL5QlTzP7m4Z/Konu4xJsjeNiAxY78BSPX0oAl2H
+++1Gw/32oaaFZFjaVFkbopYZP4UedD5hj81N46ruGfyoANh/vtRsP99qI54ZSRHKjkDJCsDgUguI
+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
+Tv0JqKKKDIKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAK5q4/4/Lj/AK6N/M10tc1cf8flx/10b+ZqofxI/wBdC3/Bn8vzQyiiiu08ywVZ
+SGNbUTzbyGbaqqQPxqtU8dwot/JljLoG3LhsEUnfoUrdRVtxKXeJ9sKkfNJx17cVINNmzhnjU79g
+yTyevpTFuowskZg/dOQdoc5BHvUrakXZWaIfLJv4b2xipbl0KtEYNPlKA7owWBIUk5OOtNeylSMu
+WTgBmXJyoPepBqOHjbyvuBx97ru/CklvzLFtZXyQAcSEDj2pXmFoFeGMvcLFIAu5yqHPEgBIJBx7
+VObCUtgMgJLbELctj8Kv2cEN5pCq6lAZHZCp5Q72wQfUVTkuprWdY7qLfNGG8uYHCuD3x689KhVJ
+N2NHTilcjexlSMuXjOEDlQTnH5VVq21/u3fu/vRCP7361UrWN+pi0ugUUUVRNiRP9Rcf7g/9CWt6
+z/484P8Armv8qwE/1Fx/uD/0Ja37P/jzg/65r/KuOr/E+R6VL/d16v8AJE1FFFQSFFFFABRRRQAU
+UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFc3cIxub
+lwPlWUgn6k10lZZsb1J52hliVZWJIPORk+3vSvyyUjWCUoSg3a/+ZlUVp/2fe/3rX/v2P/iaP7Pv
+f71r/wB+x/8AE1v9Y8mY/VP76/H/ACMyitP+z73+9a/9+x/8TR/Z97/etf8Av2P/AImj6x5MPqn9
+9fj/AJGZRWn/AGfe/wB61/79j/4mj+z73+9a/wDfsf8AxNH1jyYfVP76/H/IzKK0/wCz73+9a/8A
+fsf/ABNH9n3v961/79j/AOJo+seTD6p/fX4/5Gct5dQxRLGwCQsX2qf9ZliSD+BxiolSJJZPJHyb
+jsJUg4645546fhWt/Z97/etf+/Y/+Jo/s+9/vWv/AH7H/wATUKqk7pMt4dtWc1+P+RmUVp/2fe/3
+rX/v2P8A4mj+z73+9a/9+x/8TV/WPJkfVP76/H/IzKK0/wCz73+9a/8Afsf/ABNH9n3v961/79j/
+AOJo+seTD6p/fX4/5FGNGNrcPj5QoGffcK3rP/jzg/65r/KqD2WoPCYWmh8s/wAIGP5CtKBDHbxx
+tjKqAcewrFy5p3sbuKp0lC99R9FFFBiFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB//2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		enabled="False"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="95f3c40c-b20f-4beb-b614-1bcc1b6aee4e"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="1356"
+		sy="89"
+		loc="9;24">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="716da320-4020-4115-9937-a68be52b36bf">
+				<element
+				role="unknown"
+				prefcap="spantag"
+				capabilities="webelement, spantag"
+				flavor="chromeweb"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="4"
+				rect="1347,65,19,42"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						minmodetoggle
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='webmail.zenity.fr']//div[#'taskbar']/span
+				</path>
+			</info>
+			<helperscreenshot
+			guid="a0c4332c-5dbc-4113-922f-434f42e2e551">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="d9899fad-f527-4803-be6b-bc7c8192f02c"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="c9e65b8b-f806-46c4-af3c-19b296961954">
+				<element
+				role="unknown"
+				prefcap="spantag"
+				capabilities="webelement, spantag"
+				flavor="chromeweb"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="1145,65,114,13"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						username
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						adiagne@zenity.fr
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='webmail.zenity.fr']//div[#'topline']/?/?/span[@innertext='adiagne@zenity.fr']
+				</path>
+			</info>
+			<matchname>
+				TagName
+			</matchname>
+			<matchvalue>
+				span
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="False"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="4109edbc-a110-4313-88f6-bd4d6370bfa6"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="c9e65b8b-f806-46c4-af3c-19b296961954">
+				<element
+				role="unknown"
+				prefcap="spantag"
+				capabilities="webelement, spantag"
+				flavor="chromeweb"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="1145,65,114,13"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						username
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						adiagne@zenity.fr
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='webmail.zenity.fr']//div[#'topline']/?/?/span[@innertext='adiagne@zenity.fr']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="2fb39e08-279e-4fa5-a4ba-85070c77fc31">
+				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
+ZlFS6aZSqtH/2Q==
+			</helperscreenshot>
+			<matchname>
+				Visible
+			</matchname>
+			<matchvalue>
+				True
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="False"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="fc09c6c3-8769-4614-9f3c-d229a49ef661"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="c9e65b8b-f806-46c4-af3c-19b296961954">
+				<element
+				role="unknown"
+				prefcap="spantag"
+				capabilities="webelement, spantag"
+				flavor="chromeweb"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="1145,65,114,13"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						username
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						adiagne@zenity.fr
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='webmail.zenity.fr']//div[#'topline']/?/?/span[@innertext='adiagne@zenity.fr']
+				</path>
+			</info>
+			<matchname>
+				Class
+			</matchname>
+			<matchvalue>
+				username
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="False"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="a90920d1-a650-4c02-ba10-d81a5a68e87a"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="c9e65b8b-f806-46c4-af3c-19b296961954">
+				<element
+				role="unknown"
+				prefcap="spantag"
+				capabilities="webelement, spantag"
+				flavor="chromeweb"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="1145,65,114,13"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						username
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						adiagne@zenity.fr
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='webmail.zenity.fr']//div[#'topline']/?/?/span[@innertext='adiagne@zenity.fr']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				adiagne@zenity.fr
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="87efbc0d-778d-40ae-94f1-2001ff82c37d"
+		action="Exists">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="a19795b8-83b9-4a4d-a520-7ecba077dd72">
+				<element
+				role="container"
+				prefcap="container"
+				capabilities="accessible"
+				flavor="msaa"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="False"
+				index="5"
+				rect="62,-8,1304,776"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						Google Chrome
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Google Chrome
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Client
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focusable
+					</attribute>
+				</element>
+				<path>
+					/form[@title~'^Messagerie\ Viaduc\ ::\ Mess']/container[@accessiblename='Google Chrome']
+				</path>
+			</info>
+			<matchname>
+				(Choose)
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	name="TeqtRanoRepository"
+	id="2aa8e8a5-9ca6-4741-a96d-6afc5ce7e891"
+	rxversion="5.4.4.26486"
+	relativepath="TeqtRanoRepository.rxrep">
+		<codegen
+		classname="TeqtRanoRepository"
+		namespace="TeqtRano"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="3210af4d-4347-4f81-aa07-317fc26e8e22"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		TestEmail.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

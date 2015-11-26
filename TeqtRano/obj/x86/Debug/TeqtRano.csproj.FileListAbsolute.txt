@@ -1,0 +1,8 @@
+C:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\bin\Debug\TeqtRano.rxtmg
+C:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\bin\Debug\TeqtRano.rxtst
+C:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\bin\Debug\TeqtRano.exe.config
+C:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\bin\Debug\TeqtRano.exe
+C:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\bin\Debug\TeqtRano.pdb
+C:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\obj\x86\Debug\TeqtRano.csprojResolveAssemblyReference.cache
+C:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\obj\x86\Debug\TeqtRano.exe
+C:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\obj\x86\Debug\TeqtRano.pdb

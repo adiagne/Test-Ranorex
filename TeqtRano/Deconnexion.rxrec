@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.4.26486"
+id="989019d7-dee4-427b-bccd-b780187f930c"
+embeddedrepository="false"
+mode="Desktop">
+	<name>
+		Deconnexion
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Deconnexion"
+	namespace="TeqtRano"/>
+	<variables/>
+	<recorditems>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="b8b93e3d-083f-4a3a-a3b1-242590f87061"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="1298"
+		sy="71"
+		loc="35;8">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="b904b428-fe46-4fc7-807b-7b84c94065e6">
+				<element
+				role="unknown"
+				prefcap="atag"
+				capabilities="webelement, atag"
+				flavor="chromeweb"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="1"
+				rect="1263,63,103,17"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						button-logout
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						rcmbtn101
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						D&#233;connexion
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						http://webmail.zenity.fr/?_task=logout
+					</attribute>
+					<dynamicattribute
+					name="onclick"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+				</element>
+				<path>
+					/dom[@domain='webmail.zenity.fr']//a[#'rcmbtn101']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="02f31ca1-30ec-45c9-b199-d785fa0e29a9">
+				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
+IjN12DAJ9ahzRmjS9ytbWP/Z
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	name="TeqtRanoRepository"
+	id="2aa8e8a5-9ca6-4741-a96d-6afc5ce7e891"
+	rxversion="5.4.4.26486"
+	relativepath="TeqtRanoRepository.rxrep">
+		<codegen
+		classname="TeqtRanoRepository"
+		namespace="TeqtRano"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="3210af4d-4347-4f81-aa07-317fc26e8e22"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Deconnexion.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

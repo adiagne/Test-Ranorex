@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroups
+name="TeqtRano"
+rxversion="5.4.4.26486">
+	<modulegroupdef
+	name="Connexion"
+	id="2490aae2-2105-4568-8daa-e922cb09f26a">
+		<testmodule
+		name="UrlTest"
+		id="1e890e64-2aa9-4abe-8b52-81ddac94af3b"
+		ref="f48abbf2-1b0e-41a6-ad5b-04b7bb2b3c5b"
+		type="Recording"/>
+		<testmodule
+		name="SaisieLoginUser"
+		id="f3d025eb-f6c9-4eb8-bae7-2fcc7b2e72f3"
+		ref="7ba4c0ec-8dd7-48aa-bee1-bedfeccba616"
+		type="Recording"/>
+		<testmodule
+		name="SaisieLoginPassword"
+		id="abc23f9e-b4d8-418c-8cd4-4a2be082ae9b"
+		ref="330285dd-677b-44a5-ae90-c9f9033c69e6"
+		type="Recording"/>
+	</modulegroupdef>
+</modulegroups>

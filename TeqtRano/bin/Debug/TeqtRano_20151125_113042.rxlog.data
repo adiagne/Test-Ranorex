@@ -1,0 +1,496 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="184446a05e4715a4"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="Adama"
+		host="ADAMA-VAIO"
+		rxversion="5.4.4.26486"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="fr-FR"
+		screenresolution="1366x768"
+		timestamp="25/11/2015 11:30:42"
+		timestampiso="2015-11-25T10:30:42"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="12.35s"
+			durationms="12346"
+			type="test suite"
+			rid="8e56d72d9930038"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="TeqtRano"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="2">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Success"
+				duration="9893ms"
+				durationms="9893"
+				type="test case"
+				rid="dec531e8602c070"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				testcasename="Connexion"
+				testcaseid="41126580-3c3b-482b-b19f-67393beb4663"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="228ms"
+					durationms="228"
+					type="test module"
+					rid="110a085cae38a518"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="UrlTest"
+					moduleid="f48abbf2-1b0e-41a6-ad5b-04b7bb2b3c5b"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.234"
+						timeRelativeToTestModuleStartTime="00:00.008"
+						timeWallClock="11:30:42"
+						time="00:00.234"
+						level="Info"
+						category="Website">
+						<message>
+							Opening web site 'http://webmail.zenity.fr' with browser 'chrome' in normal mode.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\UrlTest.cs"
+							codeline="82"
+							loglvl="Info"/>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="6077ms"
+					durationms="6077"
+					type="test module"
+					rid="3d2e2741cad4cb0"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="SaisieLoginUser"
+					moduleid="7ba4c0ec-8dd7-48aa-bee1-bedfeccba616"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.464"
+						timeRelativeToTestModuleStartTime="00:00.006"
+						timeWallClock="11:30:43"
+						time="00:00.464"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'MessagerieViaducBienvenueSurMessa.Rcmloginuser' at 136;12.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='webmail.zenity.fr']//input[#'rcmloginuser']"
+							fullname="TeqtRanoRepository.MessagerieViaducBienvenueSurMessa.Rcmloginuser"
+							id="3064f1ad4a1f467f8b556e2843001075"
+							timeout="60000"
+							codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\SaisieLoginUser.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:02.926"
+						timeRelativeToTestModuleStartTime="00:02.468"
+						timeWallClock="11:30:45"
+						time="00:02.926"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'adiagne' with focus on 'MessagerieViaducBienvenueSurMessa.Rcmloginuser'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='webmail.zenity.fr']//input[#'rcmloginuser']"
+							fullname="TeqtRanoRepository.MessagerieViaducBienvenueSurMessa.Rcmloginuser"
+							id="3064f1ad4a1f467f8b556e2843001075"
+							timeout="60000"
+							codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\SaisieLoginUser.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.130"
+						timeRelativeToTestModuleStartTime="00:03.672"
+						timeWallClock="11:30:46"
+						time="00:04.130"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{LControlKey down}{RMenu down}{D0}{LControlKey up}{RMenu up}{LControlKey up}zenity{Decimal}fr' with focus on 'MessagerieViaducBienvenueSurMessa.Rcmloginuser'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='webmail.zenity.fr']//input[#'rcmloginuser']"
+							fullname="TeqtRanoRepository.MessagerieViaducBienvenueSurMessa.Rcmloginuser"
+							id="3064f1ad4a1f467f8b556e2843001075"
+							timeout="60000"
+							codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\SaisieLoginUser.cs"
+							codeline="90"
+							itemindex="2"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:05.644"
+						timeRelativeToTestModuleStartTime="00:05.186"
+						timeWallClock="11:30:48"
+						time="00:05.644"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'MessagerieViaducBienvenueSurMessa.BoxInner' at 447;145.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='webmail.zenity.fr']//div[#'login-form']/div[2]"
+							fullname="TeqtRanoRepository.MessagerieViaducBienvenueSurMessa.BoxInner"
+							id="925a003a60ec481d803d074fe0faeffc"
+							timeout="60000"
+							codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\SaisieLoginUser.cs"
+							codeline="94"
+							itemindex="3"
+							loglvl="Info"/>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="2594ms"
+					durationms="2594"
+					type="test module"
+					rid="13c77f04f85d7f20"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="SaisieLoginPassword"
+					moduleid="330285dd-677b-44a5-ae90-c9f9033c69e6"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.544"
+						timeRelativeToTestModuleStartTime="00:00.005"
+						timeWallClock="11:30:49"
+						time="00:06.544"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'zenity{NumPad0}{NumPad1}{NumPad0}{NumPad7}{NumPad1}{NumPad4}' with focus on 'MessagerieViaducBienvenueSurMessa.Rcmloginpwd'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='webmail.zenity.fr']//input[#'rcmloginpwd']"
+							fullname="TeqtRanoRepository.MessagerieViaducBienvenueSurMessa.Rcmloginpwd"
+							id="0634ecf42b7d468d89799d24e73c243b"
+							timeout="60000"
+							codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\SaisieLoginPassword.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:08.219"
+						timeRelativeToTestModuleStartTime="00:01.680"
+						timeWallClock="11:30:50"
+						time="00:08.219"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'MessagerieViaducBienvenueSurMessa.Rcmloginpwd' at 178;11.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='webmail.zenity.fr']//input[#'rcmloginpwd']"
+							fullname="TeqtRanoRepository.MessagerieViaducBienvenueSurMessa.Rcmloginpwd"
+							id="0634ecf42b7d468d89799d24e73c243b"
+							timeout="60000"
+							codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\SaisieLoginPassword.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info"/>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="943ms"
+					durationms="943"
+					type="test module"
+					rid="1a2ff9731821f15a"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="TestEmail"
+					moduleid="b77b48b5-080e-449a-9e5d-92b09f80a131"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:09.146"
+						timeRelativeToTestModuleStartTime="00:00.006"
+						timeWallClock="11:30:51"
+						time="00:09.146"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'MessagerieViaducBienvenueSurMessa.Submit' at 69;14.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='webmail.zenity.fr']//div[#'login-form']/?/?/form[@name='form']/?/?/input[@type='submit']"
+							fullname="TeqtRanoRepository.MessagerieViaducBienvenueSurMessa.Submit"
+							id="2c13f5b1ce2b48589bed3bf45a9ca65b"
+							timeout="60000"
+							codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\TestEmail.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info"/>
+					</item>
+				</activity>
+			</activity>
+			<activity
+				result="Failed"
+				duration="2419ms"
+				durationms="2419"
+				type="test case"
+				rid="a5454a1b562fb00"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="Deconnexion"
+				testcaseid="dd4cb44e-973e-44ad-98c1-51e086d93b12"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="1446ms"
+					durationms="1446"
+					type="test module"
+					rid="720b182af18f7e"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="Deconnexion"
+					moduleid="989019d7-dee4-427b-bccd-b780187f930c"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:10.104"
+						timeRelativeToTestModuleStartTime="00:00.004"
+						timeWallClock="11:30:52"
+						time="00:10.104"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'MessagerieViaducBienvenueSurMessa.Rcmbtn101' at 35;8.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='webmail.zenity.fr']//a[#'rcmbtn101']"
+							fullname="TeqtRanoRepository.MessagerieViaducBienvenueSurMessa.Rcmbtn101"
+							id="b904b428fe464fc7807b7b84c94065e6"
+							timeout="60000"
+							codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\Deconnexion.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info"/>
+					</item>
+				</activity>
+				<activity
+					result="Failed"
+					duration="963ms"
+					durationms="963"
+					type="test module"
+					rid="20fcb0929917e9c"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="TestDeconnexion"
+					moduleid="62d2f0a2-95f5-47e1-b7c6-3d4633d88a79"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<errmsg>
+						Attribute 'Class' of element for item 'TeqtRanoRepository.MessagerieViaducBienvenueSurMessa.BoxInner' does not match the specified value (actual='box-inner', expected='welcome').
+					</errmsg>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:11.551"
+						timeRelativeToTestModuleStartTime="00:00.003"
+						timeWallClock="11:30:54"
+						time="00:11.551"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (Visible='True') on item 'MessagerieViaducBienvenueSurMessa.BoxInner'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='webmail.zenity.fr']//div[#'login-form']/div[2]"
+							fullname="TeqtRanoRepository.MessagerieViaducBienvenueSurMessa.BoxInner"
+							id="925a003a60ec481d803d074fe0faeffc"
+							timeout="60000"
+							codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\TestDeconnexion.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:11.898"
+						timeRelativeToTestModuleStartTime="00:00.350"
+						timeWallClock="11:30:54"
+						time="00:11.898"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'Visible' of element for item 'TeqtRanoRepository.MessagerieViaducBienvenueSurMessa.BoxInner' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='webmail.zenity.fr']//div[#'login-form']/div[2]"
+							fullname="TeqtRanoRepository.MessagerieViaducBienvenueSurMessa.BoxInner"
+							id="925a003a60ec481d803d074fe0faeffc"
+							timeout="60000"
+							codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\TestDeconnexion.cs"
+							codeline="83"
+							loglvl="Success"
+							itemindex="0"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:12.063"
+						timeRelativeToTestModuleStartTime="00:00.515"
+						timeWallClock="11:30:54"
+						time="00:12.063"
+						level="Info"
+						category="Validation"
+						errimg="images_TeqtRano_20151125_113042\TeqtRano_20151125_113042_1ea11f63_trace.jpg"
+						errthumb="images_TeqtRano_20151125_113042\TeqtRano_20151125_113042_1ea11f63_trace_thumb.jpg">
+						<message>
+							Validating AttributeEqual (Class='welcome') on item 'MessagerieViaducBienvenueSurMessa.BoxInner'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='webmail.zenity.fr']//div[#'login-form']/div[2]"
+							fullname="TeqtRanoRepository.MessagerieViaducBienvenueSurMessa.BoxInner"
+							id="925a003a60ec481d803d074fe0faeffc"
+							timeout="60000"
+							codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\TestDeconnexion.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:12.267"
+						timeRelativeToTestModuleStartTime="00:00.719"
+						timeWallClock="11:30:54"
+						time="00:12.267"
+						level="Failure"
+						category="Validation"
+						errimg="images_TeqtRano_20151125_113042\TeqtRano_20151125_113042_c50cda2c_trace.jpg"
+						errthumb="images_TeqtRano_20151125_113042\TeqtRano_20151125_113042_c50cda2c_trace_thumb.jpg">
+						<message>
+							Attribute 'Class' of element for item 'TeqtRanoRepository.MessagerieViaducBienvenueSurMessa.BoxInner' does not match the specified value (actual='box-inner', expected='welcome').
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='webmail.zenity.fr']//div[#'login-form']/div[2]"
+							fullname="TeqtRanoRepository.MessagerieViaducBienvenueSurMessa.BoxInner"
+							id="925a003a60ec481d803d074fe0faeffc"
+							timeout="60000"
+							codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\TestDeconnexion.cs"
+							codeline="87"
+							loglvl="Failure"
+							itemindex="1"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:12.318"
+						timeRelativeToTestModuleStartTime="00:00.770"
+						timeWallClock="11:30:54"
+						time="00:12.318"
+						level="Error"
+						category="Module"
+						errimg="images_TeqtRano_20151125_113042\TeqtRano_20151125_113042_1eb7de7f_trace.jpg"
+						errthumb="images_TeqtRano_20151125_113042\TeqtRano_20151125_113042_1eb7de7f_trace_thumb.jpg">
+						<message>
+							Module execution was aborted because a validation step has failed. Attribute 'Class' of element for item 'TeqtRanoRepository.MessagerieViaducBienvenueSurMessa.BoxInner' does not match the specified value (actual='box-inner', expected='welcome').
+						</message>
+						<metainfo
+							stacktrace="   à Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo)
+   à Ranorex.Validate.AttributeInternal(Element element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)
+   à Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   à Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Object value)
+   à TeqtRano.TestDeconnexion.Ranorex.Core.Testing.ITestModule.Run() dans c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\TestDeconnexion.cs:ligne 87
+   à Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+							codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\TestDeconnexion.cs"
+							codeline="87"
+							type="repoitem"
+							path="/dom[@domain='webmail.zenity.fr']//div[#'login-form']/div[2]"
+							fullname="TeqtRanoRepository.MessagerieViaducBienvenueSurMessa.BoxInner"
+							id="925a003a60ec481d803d074fe0faeffc"
+							timeout="60000"
+							loglvl="Error"
+							itemindex="1"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

@@ -1,0 +1,448 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="11aab064e3ae9548"
+		totalerrorcount="0"
+		totalwarningcount="2"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Adama"
+		host="ADAMA-VAIO"
+		rxversion="5.4.4.26486"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="fr-FR"
+		screenresolution="1366x768"
+		timestamp="24/11/2015 22:04:50"
+		timestampiso="2015-11-24T21:04:50"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.363"
+			timeRelativeToTestModuleStartTime="00:00.363"
+			timeWallClock="22:04:50"
+			time="00:00.363"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'http://webmail.zenity.fr' with browser 'chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\Recording1.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.432"
+			timeRelativeToTestModuleStartTime="00:00.432"
+			timeWallClock="22:04:50"
+			time="00:00.432"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'ad'.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\Recording1.cs"
+				codeline="86"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.755"
+			timeRelativeToTestModuleStartTime="00:00.755"
+			timeWallClock="22:04:51"
+			time="00:00.755"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'iagne'.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\Recording1.cs"
+				codeline="90"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.359"
+			timeRelativeToTestModuleStartTime="00:01.359"
+			timeWallClock="22:04:51"
+			time="00:01.359"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LControlKey down}{RMenu down}{D0}{LControlKey up}{RMenu up}{LControlKey up}zenity'.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\Recording1.cs"
+				codeline="94"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.196"
+			timeRelativeToTestModuleStartTime="00:02.196"
+			timeWallClock="22:04:52"
+			time="00:02.196"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MessagerieViaducBienvenueSurMessa.Rcmloginpwd' at 138;21.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='webmail.zenity.fr']//input[#'rcmloginpwd']"
+				fullname="TeqtRanoRepository.MessagerieViaducBienvenueSurMessa.Rcmloginpwd"
+				id="0634ecf42b7d468d89799d24e73c243b"
+				timeout="60000"
+				codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\Recording1.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.018"
+			timeRelativeToTestModuleStartTime="00:04.018"
+			timeWallClock="22:04:54"
+			time="00:04.018"
+			level="Warn"
+			category="WinForms">
+			<message>
+				Failed to load the assemblies containing the definition of this control. UI element identification capabilities for this control are limited. Failed assemblies:<br/>C:\Program Files\Sony\VAIO Care\VCsystray.exe<br/>The following website provides more information on this technology limitation:<br/>http://www.ranorex.com/support/user-guide-20/technology-instrumentation/general-troubleshooting.html#c3250<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\Recording1.cs"
+				codeline="99"
+				loglvl="Warn"
+				itemindex="4"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.219"
+			timeRelativeToTestModuleStartTime="00:05.219"
+			timeWallClock="22:04:55"
+			time="00:05.219"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MessagerieViaducBienvenueSurMessa.Rcmloginpwd' at 138;21.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='webmail.zenity.fr']//input[#'rcmloginpwd']"
+				fullname="TeqtRanoRepository.MessagerieViaducBienvenueSurMessa.Rcmloginpwd"
+				id="0634ecf42b7d468d89799d24e73c243b"
+				timeout="60000"
+				codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\Recording1.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.275"
+			timeRelativeToTestModuleStartTime="00:06.275"
+			timeWallClock="22:04:56"
+			time="00:06.275"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'zenity' with focus on 'MessagerieViaducBienvenueSurMessa.Rcmloginpwd'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='webmail.zenity.fr']//input[#'rcmloginpwd']"
+				fullname="TeqtRanoRepository.MessagerieViaducBienvenueSurMessa.Rcmloginpwd"
+				id="0634ecf42b7d468d89799d24e73c243b"
+				timeout="60000"
+				codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\Recording1.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.507"
+			timeRelativeToTestModuleStartTime="00:07.507"
+			timeWallClock="22:04:57"
+			time="00:07.507"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{NumPad0}{NumPad1}{NumPad0}{NumPad7}{NumPad1}{NumPad4}' with focus on 'MessagerieViaducBienvenueSurMessa.Rcmloginpwd'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='webmail.zenity.fr']//input[#'rcmloginpwd']"
+				fullname="TeqtRanoRepository.MessagerieViaducBienvenueSurMessa.Rcmloginpwd"
+				id="0634ecf42b7d468d89799d24e73c243b"
+				timeout="60000"
+				codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\Recording1.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.667"
+			timeRelativeToTestModuleStartTime="00:08.667"
+			timeWallClock="22:04:59"
+			time="00:08.667"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MessagerieViaducBienvenueSurMessa.Submit' at 68;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='webmail.zenity.fr']//div[#'login-form']/?/?/form[@name='form']/?/?/input[@type='submit']"
+				fullname="TeqtRanoRepository.MessagerieViaducBienvenueSurMessa.Submit"
+				id="2c13f5b1ce2b48589bed3bf45a9ca65b"
+				timeout="60000"
+				codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\Recording1.cs"
+				codeline="114"
+				itemindex="8"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.841"
+			timeRelativeToTestModuleStartTime="00:09.841"
+			timeWallClock="22:05:00"
+			time="00:09.841"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'ze'.
+			</message>
+			<metainfo
+				itemindex="9"
+				codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\Recording1.cs"
+				codeline="118"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.146"
+			timeRelativeToTestModuleStartTime="00:10.146"
+			timeWallClock="22:05:00"
+			time="00:10.146"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'nity{NumPad0}{NumPad1}{NumPad0}'.
+			</message>
+			<metainfo
+				itemindex="10"
+				codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\Recording1.cs"
+				codeline="122"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.957"
+			timeRelativeToTestModuleStartTime="00:10.957"
+			timeWallClock="22:05:01"
+			time="00:10.957"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{NumPad7}{NumPad1}{NumPad4}'.
+			</message>
+			<metainfo
+				itemindex="11"
+				codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\Recording1.cs"
+				codeline="126"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.366"
+			timeRelativeToTestModuleStartTime="00:11.366"
+			timeWallClock="22:05:01"
+			time="00:11.366"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MessagerieViaducBienvenueSurMessa.Submit' at 67;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='webmail.zenity.fr']//div[#'login-form']/?/?/form[@name='form']/?/?/input[@type='submit']"
+				fullname="TeqtRanoRepository.MessagerieViaducBienvenueSurMessa.Submit"
+				id="2c13f5b1ce2b48589bed3bf45a9ca65b"
+				timeout="60000"
+				codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\Recording1.cs"
+				codeline="130"
+				itemindex="12"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.362"
+			timeRelativeToTestModuleStartTime="00:12.362"
+			timeWallClock="22:05:02"
+			time="00:12.362"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MessagerieViaducBienvenueSurMessa.Rcmloginuser' at 114;19.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='webmail.zenity.fr']//input[#'rcmloginuser']"
+				fullname="TeqtRanoRepository.MessagerieViaducBienvenueSurMessa.Rcmloginuser"
+				id="3064f1ad4a1f467f8b556e2843001075"
+				timeout="60000"
+				codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\Recording1.cs"
+				codeline="134"
+				itemindex="13"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.009"
+			timeRelativeToTestModuleStartTime="00:13.009"
+			timeWallClock="22:05:03"
+			time="00:13.009"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{InputTag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\Recording1.cs"
+				codeline="135"
+				loglvl="Warn"
+				itemindex="13"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.599"
+			timeRelativeToTestModuleStartTime="00:13.599"
+			timeWallClock="22:05:04"
+			time="00:13.599"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Decimal}' with focus on 'MessagerieViaducBienvenueSurMessa.Rcmloginuser'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='webmail.zenity.fr']//input[#'rcmloginuser']"
+				fullname="TeqtRanoRepository.MessagerieViaducBienvenueSurMessa.Rcmloginuser"
+				id="3064f1ad4a1f467f8b556e2843001075"
+				timeout="60000"
+				codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\Recording1.cs"
+				codeline="138"
+				itemindex="14"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.218"
+			timeRelativeToTestModuleStartTime="00:14.218"
+			timeWallClock="22:05:04"
+			time="00:14.218"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'fr' with focus on 'MessagerieViaducBienvenueSurMessa.Rcmloginuser'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='webmail.zenity.fr']//input[#'rcmloginuser']"
+				fullname="TeqtRanoRepository.MessagerieViaducBienvenueSurMessa.Rcmloginuser"
+				id="3064f1ad4a1f467f8b556e2843001075"
+				timeout="60000"
+				codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\Recording1.cs"
+				codeline="142"
+				itemindex="15"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.064"
+			timeRelativeToTestModuleStartTime="00:15.064"
+			timeWallClock="22:05:05"
+			time="00:15.064"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MessagerieViaducBienvenueSurMessa.Rcmloginpwd' at 107;22.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='webmail.zenity.fr']//input[#'rcmloginpwd']"
+				fullname="TeqtRanoRepository.MessagerieViaducBienvenueSurMessa.Rcmloginpwd"
+				id="0634ecf42b7d468d89799d24e73c243b"
+				timeout="60000"
+				codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\Recording1.cs"
+				codeline="146"
+				itemindex="16"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.198"
+			timeRelativeToTestModuleStartTime="00:16.198"
+			timeWallClock="22:05:06"
+			time="00:16.198"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'zenity' with focus on 'MessagerieViaducBienvenueSurMessa.Rcmloginpwd'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='webmail.zenity.fr']//input[#'rcmloginpwd']"
+				fullname="TeqtRanoRepository.MessagerieViaducBienvenueSurMessa.Rcmloginpwd"
+				id="0634ecf42b7d468d89799d24e73c243b"
+				timeout="60000"
+				codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\Recording1.cs"
+				codeline="150"
+				itemindex="17"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.434"
+			timeRelativeToTestModuleStartTime="00:17.434"
+			timeWallClock="22:05:07"
+			time="00:17.434"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{NumPad0}{NumPad1}{NumPad0}{NumPad7}{NumPad1}{NumPad4}' with focus on 'MessagerieViaducBienvenueSurMessa.Rcmloginpwd'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='webmail.zenity.fr']//input[#'rcmloginpwd']"
+				fullname="TeqtRanoRepository.MessagerieViaducBienvenueSurMessa.Rcmloginpwd"
+				id="0634ecf42b7d468d89799d24e73c243b"
+				timeout="60000"
+				codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\Recording1.cs"
+				codeline="154"
+				itemindex="18"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.499"
+			timeRelativeToTestModuleStartTime="00:18.499"
+			timeWallClock="22:05:08"
+			time="00:18.499"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MessagerieViaducBienvenueSurMessa.Submit' at 70;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='webmail.zenity.fr']//div[#'login-form']/?/?/form[@name='form']/?/?/input[@type='submit']"
+				fullname="TeqtRanoRepository.MessagerieViaducBienvenueSurMessa.Submit"
+				id="2c13f5b1ce2b48589bed3bf45a9ca65b"
+				timeout="60000"
+				codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\Recording1.cs"
+				codeline="158"
+				itemindex="19"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="58.78s"
+		durationms="58782"
+		type="root"
+		rid="998b71c9e1d146"
+		totalerrorcount="2"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="2"
+		totalblockedcount="0"
+		user="Adama"
+		host="ADAMA-VAIO"
+		rxversion="5.4.4.26486"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="fr-FR"
+		screenresolution="1366x768"
+		timestamp="25/11/2015 10:58:00"
+		timestampiso="2015-11-25T09:58:00"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="58.25s"
+			durationms="58246"
+			type="test suite"
+			rid="d256ee1c8af3d40"
+			totalerrorcount="2"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="2"
+			totalblockedcount="0"
+			testsuitename="TeqtRano"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="2">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="38.09s"
+				durationms="38090"
+				type="test case"
+				rid="6e63b85c5dff778"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="Connexion"
+				testcaseid="41126580-3c3b-482b-b19f-67393beb4663"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="38.04s"
+					durationms="38043"
+					type="test module"
+					rid="5af883b55d5b9b4"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="Recording1"
+					moduleid="f48abbf2-1b0e-41a6-ad5b-04b7bb2b3c5b"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<errmsg>
+						Failed to find item 'TeqtRanoRepository.MessagerieViaducBienvenueSurMessa.Minmodetoggle'.
+					</errmsg>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.679"
+						timeRelativeToTestModuleStartTime="00:00.022"
+						timeWallClock="10:58:01"
+						time="00:00.679"
+						level="Info"
+						category="Website">
+						<message>
+							Opening web site 'http://webmail.zenity.fr' with browser 'chrome' in normal mode.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\Recording1.cs"
+							codeline="82"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.992"
+						timeRelativeToTestModuleStartTime="00:00.335"
+						timeWallClock="10:58:01"
+						time="00:00.992"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left DoubleClick item 'MessagerieViaducBienvenueSurMessa1.PageTabList' at 474;7.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title~'^Messagerie\ Viaduc\ ::\ Bien']/container[@accessiblename='Google Chrome']//tabpagelist[@accessiblerole='PageTabList']"
+							fullname="TeqtRanoRepository.MessagerieViaducBienvenueSurMessa1.PageTabList"
+							id="8fdff3566d8e4ef6a7a42fc778bb3b80"
+							timeout="60000"
+							codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\Recording1.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.117"
+						timeRelativeToTestModuleStartTime="00:03.460"
+						timeWallClock="10:58:04"
+						time="00:04.117"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'MessagerieViaducBienvenueSurMessa.Rcmloginuser' at 136;12.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='webmail.zenity.fr']//input[#'rcmloginuser']"
+							fullname="TeqtRanoRepository.MessagerieViaducBienvenueSurMessa.Rcmloginuser"
+							id="3064f1ad4a1f467f8b556e2843001075"
+							timeout="60000"
+							codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\Recording1.cs"
+							codeline="90"
+							itemindex="2"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:05.170"
+						timeRelativeToTestModuleStartTime="00:04.513"
+						timeWallClock="10:58:05"
+						time="00:05.170"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'MessagerieViaducBienvenueSurMessa.BoxInner' at 447;145.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='webmail.zenity.fr']//div[#'login-form']/div[2]"
+							fullname="TeqtRanoRepository.MessagerieViaducBienvenueSurMessa.BoxInner"
+							id="925a003a60ec481d803d074fe0faeffc"
+							timeout="60000"
+							codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\Recording1.cs"
+							codeline="94"
+							itemindex="3"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.055"
+						timeRelativeToTestModuleStartTime="00:05.398"
+						timeWallClock="10:58:06"
+						time="00:06.055"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'MessagerieViaducBienvenueSurMessa.Rcmloginpwd' at 178;11.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='webmail.zenity.fr']//input[#'rcmloginpwd']"
+							fullname="TeqtRanoRepository.MessagerieViaducBienvenueSurMessa.Rcmloginpwd"
+							id="0634ecf42b7d468d89799d24e73c243b"
+							timeout="60000"
+							codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\Recording1.cs"
+							codeline="98"
+							itemindex="4"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.937"
+						timeRelativeToTestModuleStartTime="00:06.280"
+						timeWallClock="10:58:07"
+						time="00:06.937"
+						level="Info"
+						category="Mouse"
+						errimg="images_TeqtRano_20151125_105800\TeqtRano_20151125_105800_cc4d7b2a_trace.jpg"
+						errthumb="images_TeqtRano_20151125_105800\TeqtRano_20151125_105800_cc4d7b2a_trace_thumb.jpg">
+						<message>
+							Mouse Left Click item 'MessagerieViaducBienvenueSurMessa.Submit' at 69;14.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='webmail.zenity.fr']//div[#'login-form']/?/?/form[@name='form']/?/?/input[@type='submit']"
+							fullname="TeqtRanoRepository.MessagerieViaducBienvenueSurMessa.Submit"
+							id="2c13f5b1ce2b48589bed3bf45a9ca65b"
+							timeout="60000"
+							codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\Recording1.cs"
+							codeline="102"
+							itemindex="5"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:07.892"
+						timeRelativeToTestModuleStartTime="00:07.235"
+						timeWallClock="10:58:08"
+						time="00:07.892"
+						level="Info"
+						category="Mouse"
+						errimg="images_TeqtRano_20151125_105800\TeqtRano_20151125_105800_0e358674_trace.jpg"
+						errthumb="images_TeqtRano_20151125_105800\TeqtRano_20151125_105800_0e358674_trace_thumb.jpg">
+						<message>
+							Mouse Left Click item 'MessagerieViaducBienvenueSurMessa.Minmodetoggle' at 9;24.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='webmail.zenity.fr']//div[#'taskbar']/span"
+							fullname="TeqtRanoRepository.MessagerieViaducBienvenueSurMessa.Minmodetoggle"
+							id="716da320402041159937a68be52b36bf"
+							timeout="60000"
+							codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\Recording1.cs"
+							codeline="106"
+							itemindex="6"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:38.441"
+						timeRelativeToTestModuleStartTime="00:37.784"
+						timeWallClock="10:58:39"
+						time="00:38.441"
+						level="Error"
+						category="Module"
+						errimg="images_TeqtRano_20151125_105800\TeqtRano_20151125_105800_371d601b_trace.jpg"
+						errthumb="images_TeqtRano_20151125_105800\TeqtRano_20151125_105800_371d601b_trace_thumb.jpg">
+						<message>
+							Failed to find item 'TeqtRanoRepository.MessagerieViaducBienvenueSurMessa.Minmodetoggle'.<br/>No element found for path '/dom[@domain='webmail.zenity.fr']//div[#'taskbar']/span' within 1m.
+						</message>
+						<metainfo
+							stacktrace="   à Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   à Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   à Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   à TeqtRano.TeqtRanoRepositoryFolders.MessagerieViaducBienvenueSurMessaAppFolder.get_Minmodetoggle() dans c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\TeqtRanoRepository.cs:ligne 250
+   à TeqtRano.Recording1.Ranorex.Core.Testing.ITestModule.Run() dans c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\Recording1.cs:ligne 107
+   à Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+							codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\Recording1.cs"
+							codeline="107"
+							type="repoitem"
+							path="/dom[@domain='webmail.zenity.fr']//div[#'taskbar']/span"
+							fullname="TeqtRanoRepository.MessagerieViaducBienvenueSurMessa.Minmodetoggle"
+							id="716da320402041159937a68be52b36bf"
+							timeout="60000"
+							loglvl="Error"
+							itemindex="6"/>
+					</item>
+				</activity>
+			</activity>
+			<activity
+				result="Failed"
+				duration="20.07s"
+				durationms="20074"
+				type="test case"
+				rid="1fe2078ba4753eaf"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="Deconnexion"
+				testcaseid="dd4cb44e-973e-44ad-98c1-51e086d93b12"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="20.07s"
+					durationms="20073"
+					type="test module"
+					rid="842a0219796e762"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="Deconnexion"
+					moduleid="989019d7-dee4-427b-bccd-b780187f930c"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:38.711"
+						timeRelativeToTestModuleStartTime="00:00.002"
+						timeWallClock="10:58:39"
+						time="00:38.711"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'MessagerieViaducBienvenueSurMessa.Rcmbtn101' at 35;8.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='webmail.zenity.fr']//a[#'rcmbtn101']"
+							fullname="TeqtRanoRepository.MessagerieViaducBienvenueSurMessa.Rcmbtn101"
+							id="b904b428fe464fc7807b7b84c94065e6"
+							timeout="60000"
+							codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\Deconnexion.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:58.782"
+						timeRelativeToTestModuleStartTime="00:20.073"
+						timeWallClock="10:58:59"
+						time="00:58.782"
+						level="Error"
+						category="Module">
+						<message>
+							Test run was aborted by the user.
+						</message>
+						<metainfo
+							loglvl="Error"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

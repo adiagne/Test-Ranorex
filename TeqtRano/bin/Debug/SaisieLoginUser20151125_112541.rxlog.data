@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="33.3s"
+		durationms="33304"
+		type="root"
+		rid="2566e9afa9037f"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Adama"
+		host="ADAMA-VAIO"
+		rxversion="5.4.4.26486"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="fr-FR"
+		screenresolution="1366x768"
+		timestamp="25/11/2015 11:25:48"
+		timestampiso="2015-11-25T10:25:48"
+		timeoutfactor="1"
+		module="SaisieLoginUser">
+		<detail>
+			SaisieLoginUser
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.341"
+			timeRelativeToTestModuleStartTime="00:00.342"
+			timeWallClock="11:25:48"
+			time="00:00.341"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MessagerieViaducBienvenueSurMessa.Rcmloginuser' at 136;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='webmail.zenity.fr']//input[#'rcmloginuser']"
+				fullname="TeqtRanoRepository.MessagerieViaducBienvenueSurMessa.Rcmloginuser"
+				id="3064f1ad4a1f467f8b556e2843001075"
+				timeout="60000"
+				codefile="c:\Users\Adama\Pictures\Documents\Ranorex\RanorexStudio Projects\TeqtRano\TeqtRano\SaisieLoginUser.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.304"
+			timeRelativeToTestModuleStartTime="00:33.305"
+			timeWallClock="11:26:21"
+			time="00:33.304"
+			level="Error"
+			category="Module">
+			<message>
+				Test run was aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>
